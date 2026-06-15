@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Story</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#080808;
+color:white;
+overflow-x:hidden;
+}
+
+body::before{
+content:'';
+position:fixed;
+width:100%;
+height:100%;
+background:
+radial-gradient(circle at 20% 20%,rgba(255,180,200,.12),transparent 30%),
+radial-gradient(circle at 80% 40%,rgba(180,220,255,.12),transparent 30%),
+radial-gradient(circle at 50% 90%,rgba(255,255,255,.06),transparent 40%);
+z-index:-1;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-family:'Cormorant Garamond',serif;
+font-size:6rem;
+font-weight:700;
+background:linear-gradient(90deg,#ffffff,#ffd8e7,#ffffff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero p{
+max-width:700px;
+margin-top:20px;
+font-size:1.2rem;
+color:#d1d5db;
+line-height:1.8;
+}
+
+.scroll{
+margin-top:40px;
+font-size:14px;
+letter-spacing:4px;
+color:#9ca3af;
+}
+
+.gallery{
+width:90%;
+max-width:1400px;
+margin:auto;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(380px,1fr));
+gap:40px;
+padding:80px 0;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(25px);
+border:1px solid rgba(255,255,255,.08);
+border-radius:30px;
+overflow:hidden;
+transition:.5s;
+box-shadow:0 20px 50px rgba(0,0,0,.5);
+}
+
+.card:hover{
+transform:translateY(-15px);
+box-shadow:0 30px 80px rgba(255,192,203,.2);
+}
+
+.card img{
+width:100%;
+height:450px;
+object-fit:cover;
+}
+
+.card-content{
+padding:30px;
+}
+
+.card-content h2{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;
+margin-bottom:10px;
+color:#ffd7e6;
+}
+
+.card-content p{
+line-height:1.9;
+color:#d6d6d6;
+}
+
+.timeline{
+width:85%;
+margin:100px auto;
+}
+
+.timeline h2{
+text-align:center;
+font-family:'Cormorant Garamond',serif;
+font-size:4rem;
+margin-bottom:70px;
+}
+
+.event{
+padding:30px;
+margin:25px 0;
+border-left:3px solid #ffb6c1;
+background:rgba(255,255,255,.03);
+backdrop-filter:blur(20px);
+border-radius:0 20px 20px 0;
+}
+
+.event h3{
+margin-bottom:10px;
+color:#ffd7e6;
+}
+
+.event p{
+color:#d1d5db;
+line-height:1.8;
+}
+
+.footer{
+padding:80px 20px;
+text-align:center;
+}
+
+.footer h2{
+font-family:'Cormorant Garamond',serif;
+font-size:4rem;
+margin-bottom:20px;
+}
+
+.footer p{
+max-width:700px;
+margin:auto;
+color:#d1d5db;
+line-height:2;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:3.5rem;
+}
+
+.timeline h2,
+.footer h2{
+font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+
+<h1>Our Story</h1>
+
+<p>
+
+
+
+
+
+
+
+
+
+
+A collection of moments, smiles, memories and feelings. Every photograph here carries a small piece of
+Hassan Rubaiyat and Sanzida akter's life.
+</p>
+
+<div class="scroll">
+SCROLL TO EXPLORE
+</div>
+
+</section>
+
+<section class="gallery">
+
+<div class="card">
+<img src="love1.jpg">
+<div class="card-content">
+<h2>The Beginning</h2>
+<p>
+The day everything started. A simple moment that quietly became one of the most meaningful memories of my life.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="love2.jpg">
+<div class="card-content">
+<h2>Favorite Memory</h2>
+<p>
+Some photographs capture more than faces. They capture emotions, laughter and moments we never want to lose.
+</p>
+</div>
+</div>
+
+<div class="card">
+<img src="love3.jpg">
+<div class="card-content">
+<h2>Forever Moment</h2>
+<p>
+This picture reminds me that happiness is often hidden inside the smallest memories.
+</p>
+</div>
+</div>
+
+</section>
+
+<section class="timeline">
+
+<h2>Our Timeline</h2>
+
+<div class="event">
+<h3>First Meeting</h3>
+<p>We have always been incredibly special to each other. In our hearts, we met long before we ever saw each other in person — our souls found each other on February 16, 2022. From that day on, we spent four years loving each other with unwavering loyalty, trust, and patience. Then, on February 10, 2025, our long-awaited dream finally came true when we met face to face for the very first time at Ghop Graveyard in Jessore. It wasn't just a meeting; it was the moment when years of love, countless emotions, and endless memories became real. That day will forever remain one of the most precious chapters of our storspec</p>
+</div>
+
+<div class="event">
+<h3>Special Day</h3>
+<p>The most special moments in our lives are the moments we spend together. Whenever we are with each other, even the simplest and most ordinary things become beautiful and meaningful. Being with the person you love has a way of turning every moment into something special.
+
+Among all our memories, meeting at night was one of the most beautiful and unforgettable experiences. The peace, happiness, and emotions we felt in those moments are beyond words. Every second we spent together became a precious memory that we will cherish forever.
+
+Hassan Rubaiyat Roddur loves Sanzida Akter more than words can ever express—more than yesterday, more than today, and more with every passing day. She is not only the love of his life but also the most beautiful part of his world, the reason behind his smiles, and the keeper of his heart.</p>
+</div>
+
+<div class="event">
+<h3>Best Memory</h3>
+<p>Every moment we spend together becomes a beautiful memory, but the hugs we share and the kisses that express our love hold a very special place in our hearts. Those moments are not just gestures of affection; they are memories filled with love, warmth, comfort, and happiness. They remind us how deeply we care for each other and how lucky we are to have one another. Among all the memories in our journey, these precious moments will always remain some of the most cherished and unforgettable parts of our lives</p>
+</div>
+
+</section>
+
+<section class="footer">
+
+<h2>To The One Who Matters Most</h2>
+
+<p>
+Thank you for every smile, every memory and every beautiful chapter.
+This page is only a small reflection of a journey that means so much to me.
+</p>
+
+</section>
+
+</body>
+</html>
